@@ -9,12 +9,11 @@ En primer lugar comprobamos que el array no este vacio, para evitar entrar en el
 
 En segundo lugar creamos una constante donde se guarden los cambios.
 
-Posteriormente creamos un for para que recorra todo el array inicializandolo en 0 y guiandose por la longitud del mismo. Dentro de este creamos una constante element para que el código sea más limpio y nos facilite la lectura, dándole el valor del indice del array que ira cambiando en cada caso. 
+Posteriormente creamos un for para que recorra todo el array inicializandolo en 0 y guiandose por la longitud del mismo. Dentro de este creamos una constante element para que el código sea más limpio y nos facilite la lectura, dándole el valor del indice del array que ira cambiando en cada iteración. 
 
-- TODO explicación 
+Creamos un if poniendole la condición de que si es null inicialmente se le de el valor de 1 y si no se sume 1. El segundo if que creamos tiene la condición de igualar modes al elemento y maxCount al elemento del objeto. Si esto no se cumple pasamos al else donde si la concción es igual se llama al metodo push de arrays para meter en un nuevo array el numero repetido. Retornando el nuevo array.
 
-
-
+Probado en la consola del navegador
 
 ## Ejercicio 4
 
