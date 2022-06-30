@@ -21,6 +21,7 @@ function highestOccurrence(array) {
     }
     return newArray;
   }
+  
 /* 
 
 Output 
